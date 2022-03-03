@@ -1,0 +1,23 @@
+{
+  "name": "zookeepr",
+  "version": "2.0.0",
+  "description": "A local zoo's online catalog that allows animal enthusiasts to access the data from different locations and browsers without needing to download it to their device.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldrinburgos18/zookeepr-v2.git"
+  },
+  "author": "Aldrin Burgos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aldrinburgos18/zookeepr-v2/issues"
+  },
+  "homepage": "https://github.com/aldrinburgos18/zookeepr-v2#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
