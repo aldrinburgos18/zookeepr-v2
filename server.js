@@ -10,7 +10,6 @@ app.use(express.json());
 const { animals } = require("./data/animals.json");
 const fs = require("fs");
 const path = require("path");
-const { type } = require("express/lib/response");
 
 function filterByQuery(query, animalsArray) {
   let personalityTraitsArray = [];
