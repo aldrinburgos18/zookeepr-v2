@@ -108,6 +108,16 @@
         "loving"
       ],
       "id": "10"
+    },
+    {
+      "name": "Raki",
+      "species": "Dog",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry",
+        "loving"
+      ],
+      "id": "11"
     }
   ]
 }
