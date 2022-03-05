@@ -57,7 +57,6 @@ function findById(id, animalsArray) {
 }
 app.get("/api/animals", (req, res) => {
   let results = animals;
-  console.log(req.query);
   if (req.query) {
     results = filterByQuery(req.query, results);
   }
