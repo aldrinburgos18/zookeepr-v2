@@ -119,7 +119,7 @@ app.get("/animals", (req, res) => {
 });
 
 app.get("/zookeepers", (req, res) => {
-  res.sendFile(path.join(__dirname, "./public/zookeeper.html"));
+  res.sendFile(path.join(__dirname, "./public/zookeepers.html"));
 });
 
 app.listen(PORT, () => {
